@@ -1,0 +1,320 @@
+section.samedash {
+  div.section__work {
+    top: -518px;
+    left: 450px;
+
+    @media screen and (max-width:35em) {
+      top: 24px;
+      left: 18px;
+    }
+
+    div.work__top {
+      background-color: var(--clr-LightRedW);
+      background-image: url(../images/icon-work.svg);
+    }
+
+    div.work__bottom {
+      div.work__bottom-top {
+        p.title {
+          margin: 20px 0 0 30px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px;
+          }
+        }
+
+        div.dots {
+          margin: 30px 0 0 131px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 213px;
+          }
+        }
+      }
+
+      div.work__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 29px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 23px;
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 29px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+
+  div.section__play {
+    top: -765px;
+    left: 732px;
+
+    @media screen and (max-width:35em) {
+      top: 38px;
+      left: 18px;
+    }
+
+    div.play__top {
+      background-color: var(--clr-SoftBlue);
+      background-image: url(../images/icon-play.svg);
+    }
+
+    div.play__bottom {
+      div.play__bottom-top {
+        p.title {
+          margin: 20px 0 0 29px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px
+          }
+        }
+
+        div.dots {
+          margin: 30px 0 0 136px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 217px
+          }
+        }
+      }
+
+      div.play__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 24px
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+
+  div.section__study {
+    top: -741px;
+    left: 1016px;
+
+    @media screen and (max-width:35em) {
+      top: 56px;
+      left: 18px;
+    }
+
+    div.study__top {
+      background-color: var(--clr-LightRedS);
+      background-image: url(../images/icon-study.svg);
+    }
+
+    div.study__bottom {
+      div.study__bottom-top {
+        p.title {
+          margin: 20px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px
+          }
+        }
+
+        div.dots {
+          margin: 30px 0 0 122px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 202px
+          }
+        }
+      }
+
+      div.study__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 27px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 24px
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 27px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+
+  div.section__exercise {
+    top: -989px;
+    left: 450px;
+
+    @media screen and (max-width:35em) {
+      top: 74px;
+      left: 18px;
+    }
+
+    div.exercise__top {
+      background-color: var(--clr-LimeGreen);
+      background-image: url(../images/icon-exercise.svg);
+    }
+
+    div.exercise__bottom {
+      div.exercise__bottom-top {
+        p.title {
+          margin: 20px 0 0 29px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px
+          }
+
+        }
+
+        div.dots {
+          margin: 30px 0 0 99px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 160px
+          }
+        }
+      }
+
+      div.exercise__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 24px
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+
+  div.section__social {
+    left: 732px;
+    top: -1236px;
+
+    @media screen and (max-width:35em) {
+      left: 18px;
+      top: 92px;
+    }
+
+    div.social__top {
+      background-color: var(--clr-Violet);
+      background-image: url(../images/icon-social.svg);
+    }
+
+    div.social__bottom {
+      div.social__bottom-top {
+        p.title {
+          margin: 20px 0 0 29px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px
+          }
+        }
+
+        div.dots {
+          margin: 30px 0 0 121px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 204px
+          }
+        }
+      }
+
+      div.social__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 24px
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+
+  div.section__selfcare {
+    top: -1752px;
+    left: 1016px;
+
+    @media screen and (max-width:35em) {
+      top: 110px;
+      left: 18px;
+    }
+
+    div.selfcare__top {
+      background-color: var(--clr-SoftOrange);
+      background-image: url(../images/icon-self-care.svg);
+    }
+
+    div.selfcare__bottom {
+      div.selfcare__bottom-top {
+        p.title {
+          margin: 20px 0 0 28px;
+
+          @media screen and (max-width:35em) {
+            margin: 14px 0 0 24px
+          }
+        }
+
+        div.dots {
+          margin: 30px 0 0 95px;
+
+          @media screen and (max-width:35em) {
+            margin: 24px 0 0 179px
+          }
+        }
+      }
+
+      div.selfcare__bottom-bottom {
+        p.current-hours {
+          margin: 25px 0 0 27px;
+
+          @media screen and (max-width:35em) {
+            margin: 8px 0 0 24px
+          }
+        }
+
+        p.previeos-hours {
+          margin: 7px 0 0 27px;
+
+          @media screen and (max-width:35em) {
+            margin: -36px 0 0 197px
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+:root {
+  --font-base: "Rubik", sans-serif;
+  --clr-Blue: hsl(246, 80%, 60%);
+  --clr-LightRedW: hsl(15, 100%, 70%);
+  --clr-SoftBlue: hsl(195, 74%, 62%);
+  --clr-LightRedS: hsl(348, 100%, 68%);
+  --clr-LimeGreen: hsl(145, 58%, 55%);
+  --clr-Violet: hsl(264, 64%, 52%);
+  --clr-SoftOrange: hsl(43, 84%, 65%);
+  --clr-VeryDarkBlue: hsl(226, 43%, 10%);
+  --clr-DarkBlue: hsl(235, 46%, 20%);
+  --clr-DesaturatedBlue: hsl(235, 45%, 61%);
+  --clr-PaleBlue: hsl(236, 100%, 87%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul[role="list"],
+ol[role="list"],
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  font-family: var(--font-base);
+  background-color: var(--clr-VeryDarkBlue);
+  overflow-x: hidden;
+  text-rendering: optimizeSpeed;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.box {
+  width: 255px;
+  height: 247px;
+}
+.small-box {
+  height: 59px;
+  border-radius: 12px 12px 0 0;
+  background: no-repeat 155px -10px;
+}
+.big-box {
+  height: 200px;
+  border-radius: 12px;
+  margin: -14px 0 0 0;
+  background-color: var(--clr-DarkBlue);
+}
+p.current-hours {
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: -1.12px;
+}
+p.previeos-hours {
+  color: var(--clr-DesaturatedBlue);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.64px;
+}
+p.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 35em) {
+  .box {
+    width: 327px;
+    height: 154px;
+  }
+  .small-box {
+    height: 51px;
+    background: no-repeat 235px -10px;
+  }
+  .big-box {
+    height: 110px;
+    margin: -12px 0 0 0;
+  }
+  p.current-hours {
+    font-size: 32px;
+    letter-spacing: -0.64px;
+  }
+}
